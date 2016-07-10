@@ -1,0 +1,32 @@
+{
+  "name": "oompa-cache",
+  "version": "1.0.0",
+  "description": "An Oompa middleware to cache task responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakfang/oompa-cache.git"
+  },
+  "keywords": [
+    "oompa",
+    "cache",
+    "caching",
+    "lru"
+  ],
+  "author": "Alon Niv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakfang/oompa-cache/issues"
+  },
+  "homepage": "https://github.com/oakfang/oompa-cache#readme",
+  "dependencies": {
+    "lru-cache": "^4.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^7.0.0"
+  }
+}
